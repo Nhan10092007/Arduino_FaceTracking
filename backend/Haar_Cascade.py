@@ -10,7 +10,7 @@ if not cap.isOpened():
     exit()
 
 else:
-# Vòng lặp đọc và xử lý camera realtime
+#camera analyzing loop
     while cap.isOpened():
         ret, frame = cap.read()
         if not ret:
