@@ -144,8 +144,11 @@ body {
 
 .parameter-container h2{
     font-size: 20px;
-    padding-top: 10px;
-    
+    padding-top: 10px;    
+}
+.parameter-container #coords{
+    margin-top: 20px;
+    font-size: 18px;
 }
 .camera-container h2{
     padding-top: 10px;
@@ -178,4 +181,11 @@ body {
 }
 .back-btn h1:hover{
     color: black;
+}
+
+#video-feed {
+    width: 70%; 
+    max-height: auto; 
+    object-fit: contain;
+    margin-top: 20px;
 }
